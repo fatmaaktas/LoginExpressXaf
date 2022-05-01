@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9d2badf2-5a0f-4416-b79e-091855f5befd" namespace="testTest.Module.BusinessObjects.dbDeneme" dataBaseShemaInfo="H4sIAAAAAAAEAO1YUW/bNhB+L9D/IPhpA0KLEiWLKmQXTdwWRrciaJJibwFFHhNhMpWJkuPs1+8ky44dO61dpAmG7Snhd3e6+45HfpKTt/Np7sygtFlhhj2vT3tvR69fJcfCwllVlOIKJkYXDnoZ+2Zu1bB3XVU3b1z39va2f8v6RXnl+pR67h+//3Ymr2Eqeivn7PvOJDO2EkZCD7M6TnIu0hxsk7JdL5E1YAk5n8UUhr0qzS91VmLalR09TstsKsq7T3DXuZ1+urz3dCb2wmR/1U14WcN6JMaeFHk9NXYDRNhWZWauRplK3O7fjSh3Oyxx78tYh3clSMbHC9hZ/Dm/u8HqJqZifq+jkKmmcHxWVzUuPtd53vRi2NMitwiNj5vAzt9UPcfdI8tZS2eZpm3RpVBZzznL/kYgpJvPNTNRymtR/hLSX388QQX54Ql2dnliFMxhq50tfPDuP7r/352A3dU1aFfLBo/topMPRQnZlcENtmukE7ed9vv1e9Oum9ITt1usjOPMNsDFjRIVjNqhwPwb4Mr3Y52piRrJIFKpZB7xpE9JoL2ICBZLoqMw5iwWXAsvcTvnVXDHdONcPgqjodmHhbHt39pyw+1b5A4luE5SeWEEwcAjoQcpCVQaEp5Kj0hK0yhOhZSDeIvk2o7+CM/VQXp+ur70A+BcEOYLTQLpMZIyqojgTAXAUumn23v6JHTxWD8/3YCB0JoCURBEJAhiSmKBnCVjMXaAiTiCvenuQrtDeKAs3aCqFgbvuX2UaeX8vzg9nqWZscsm1RPoXNPwnylz7fNfQuX2m6T/ntDplHvci0MSeSgEAUhG4jAaEJZGFETI0Rz864XO18zXVPiEh1FAAoFCznWUEp9rn3uoBjzc/yo84Oa/fAmylPs0DAZIMQpDEnAtSRroiMTUTzVlUaoj/tRkl9fG87NFTY89TlHUWezjOwz1iaA4yUIDw/EdDJD/T2H7IpouPZxdGDDiK8rxtHpAYq7wZYbHEWdRGPhKPKmmd+t7l6T5/gV1WhayBbu7Kvm6+FgejWH2fn5TgrX9sahEf+Z7ff/I6czDZtUf9OmRc1LnVV3C0EBdlSI/ck7rNM8k3n/nxZ9ghinnykNGKqIUghhpLVO0+U5yYS3YZgO+1KvuJu8UlgY6m6/u0AY6q/UG9AWmxQweOi7Qh74n+M0/ujAoSuYK8Di360VrdtWArzIFzkeVvXBtj5SRfAQDJY7XSTGdgqlsN6Nb8IbzGCxKE5QfMhyFBxGbtjZsDDlU8M7aQmaiwi1bxuwwtAHLl6JjuBazrChxirTA+cAD9tDy+lXiPvgZZvQPfMw3Ha8RAAA=" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="FA11dbDeneme" createdInVersion="21.2.6.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="21.2.6.0" name="dbDeneme" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="6878ca0f-a2f9-4d18-b02d-f39df712e0b9">
+      <comment Id="9cc471f8-d4f3-4cab-840f-4a07180d597d" text="The 'PK_tbl_firma' index is ignored, because 'id' is a key" name="tbl_firmaComment">
+        <subjects>
+          <commentReferencesSubjects Id="a4aef8d1-0715-4598-88e2-b280884829bd">
+            <xpObjectMoniker Id="c47dbc31-1c20-4f17-a39c-f759839a8fa1" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="b0003bd6-9f3a-4dd5-9d5d-8f90111c45b5">
+      <comment Id="991c35c8-4e93-4d1b-9b59-952a84400ca7" text="The 'PK_tbl_personel' index is ignored, because 'id' is a key" name="tbl_personelComment">
+        <subjects>
+          <commentReferencesSubjects Id="ad2c40dd-3765-4c04-af43-1721dfe07c30">
+            <xpObjectMoniker Id="fb818195-7161-4ec3-9576-3b70ea58b814" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="2e1751d1-9b7c-4174-9c6b-ca28a313dd9e">
+      <xpObject Id="c47dbc31-1c20-4f17-a39c-f759839a8fa1" name="Firma" baseClass="XPLiteObject" userFileName="Firma" designerFileName="Firma.Designer" className="Firma" initialName="tbl_firma" virtualBaseClass="XPLiteObject" persistent="tbl_firma" virtualName="Firma">
+        <fields>
+          <generalXpObjectHasFields Id="33024abc-d0f6-4f16-a720-677871015333">
+            <field Id="d157e461-51eb-4db5-8bc1-c00b79bacc69" name="firm_id" columnType="Int32" initialName="id" key="true" persistent="id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5a351304-c0e9-4081-9411-ba4db4b55014">
+            <field Id="2c24e88a-32af-4c13-b30d-a83d4e3bc2b1" name="firma_adi" initialName="firma_adi" persistent="firma_adi" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="251d2f3e-5f99-48bc-90d4-598288375579">
+            <field Id="43eaff0e-de47-4490-9a13-c33932a3a97e" name="firma_tel" initialName="firma_tel" persistent="firma_tel" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="2fb2b116-0307-4ce5-ae6d-2f1a125241e1">
+      <xpObject Id="fb818195-7161-4ec3-9576-3b70ea58b814" name="Personel" baseClass="XPLiteObject" userFileName="Personel" designerFileName="Personel.Designer" className="Personel" initialName="tbl_personel" virtualBaseClass="XPLiteObject" persistent="tbl_personel" virtualName="Personel">
+        <fields>
+          <generalXpObjectHasFields Id="7bbae61b-a7b6-4a7d-8f01-a9ca8c5690c2">
+            <field Id="2f32f0a2-8574-4a9c-8f7b-28f2812af85e" name="id" columnType="Int32" initialName="id" key="true" persistent="id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2e7187bb-bf69-4398-b895-149d2f8f4d3a">
+            <field Id="0820546c-8755-48fc-b4f7-902bf037bf78" name="firm_id" columnType="Int32" initialName="firm_id" persistent="firm_id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c4359c52-729f-495b-bbe3-6f1e5c42365a">
+            <field Id="c249180a-3392-4d02-a061-afe3a58668fc" name="pers_adi" initialName="pers_adi" persistent="pers_adi" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3c7ff0ee-c4cb-4acc-af1c-78bb06d74779">
+            <field Id="c1a9ce63-2d08-4e1e-98df-4897837542da" name="pers_tel" initialName="pers_tel" persistent="pers_tel" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
